@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 13, 2019 3:17:47 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+	<class name="in.co.sunrays.proj3.dto.CourseDTO" table="ST_COURSE">
+		<id name="id" type="long">
+			<column name="ID"></column>
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="NAME" />
+		</property>
+		<property name="duration" type="java.lang.String">
+			<column name="DURATION" />
+		</property>
+		<property name="description" type="java.lang.String">
+			<column name="DESCRIPTION" />
+		</property>
+		<property name="createdBy" type="java.lang.String">
+			<column name="CREATEDBY"></column>
+		</property>
+		<property name="modifiedBy" type="java.lang.String">
+			<column name="MODIFIEDBY"></column>
+		</property>
+		<property name="createdDatetime" type="java.sql.Timestamp">
+			<column name="CREATEDDATETIME"></column>
+		</property>
+		<property name="modifiedDatetime" type="java.sql.Timestamp">
+			<column name="MODIFIEDDATETIME"></column>
+		</property>
+	</class>
+</hibernate-mapping>

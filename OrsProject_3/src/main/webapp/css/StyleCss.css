@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.headercss{
+background-color: rgba(48,68,116, 0.6);
+}
+.homelogo{
+	padding-right: 10px
+}
+
+.footer{
+position: fixed;
+left: 0;
+top: 92%;
+width: 100%;
+text-align: center;
+color: black
+
+}
